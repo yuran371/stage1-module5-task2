@@ -6,8 +6,6 @@ import java.util.List;
 
 public class InterfaceCreator {
 	
-	
-
     public Operation<Integer> divideBy(Integer divider) {
     	List<Integer> list = new ArrayList<Integer>();
     	Operation op = x -> {
@@ -16,7 +14,6 @@ public class InterfaceCreator {
 				list.add(elementOfListx/divider);
     		}
 			return list;
-
 
     	};
 		return op;
